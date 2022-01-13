@@ -50,6 +50,20 @@
     display: block;
 }
 
+.welcome-button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 60px;
+    background-color: rebeccapurple;
+    border: black 2px solid;
+    border-radius: 8px;
+}
+
+.welcome-button:hover{
+    background-color: darkorange;
+}
 
 body{
     background-image: linear-gradient(62deg, #8EC5FC,#E0C3FC);

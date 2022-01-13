@@ -13,7 +13,7 @@ Información del proyecto:
 <h5>Para windows: </h5>
 
 
-* Descargar Ruby installer para <a href="https://rubyinstaller.org/">Windows</a>
+* Descargar Ruby installer para <a href="https://rubyinstaller.org/" target=_blank>Windows</a>
 
 * Presionar CTRL + R y escribir cmd
 
@@ -25,7 +25,7 @@ Información del proyecto:
 
 * Para descargar el repositorio, se podra usar tanto git como el mismo navegador para obtenerlo
 
-* Para <a href="https://git-scm.com/downloads">git</a> tendras que utilizar el comando en terminal: git clone https://github.com/Alexrmsu/rails-pokemon.git
+* Para <a href="https://git-scm.com/downloads" target=_blank>git</a> tendras que utilizar el comando en terminal: git clone https://github.com/Alexrmsu/rails-pokemon.git
 
 * Alternativamente puedes ir a la seccion del repositorio en "Code" y presionar la opcion "Download Zip"
 
