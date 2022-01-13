@@ -15,10 +15,43 @@
  */
 
 .welcome-text{
+    padding-top: 30px;
+    font-family: "Times New Roman", serif;
 
 }
 
-
-.body{
-
+.welcome-container{
+    max-width: 600px;
+    max-height: 700px;
+    height: 600px;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border: black solid 6px;
+    border-radius: 6px;
+    box-shadow: black 1px 1px 12px 2px;
 }
+
+.welcome-paragraph{
+    font-family: "Times New Roman",serif;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
+    font-size:18px;
+    color:black;
+}
+
+.welcome-image{
+    max-width: 500px;
+    padding-top: 20px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+
+body{
+    background-image: linear-gradient(62deg, #8EC5FC,#E0C3FC);
+}
+

@@ -9,8 +9,7 @@ gem "rails", "~> 7.0.1"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
-# agregue bootstrap en gemfiles para evitar links
-gem 'bootstrap', '~> 5.0.2'
+
 
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
