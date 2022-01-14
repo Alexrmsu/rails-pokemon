@@ -10,30 +10,29 @@ Información del proyecto:
 
 <h3>Configuración:</h3>
 
-<h5>Para windows: </h5>
+<h5>Para Windows: </h5>
 
 
 * Descargar Ruby installer para <a href="https://rubyinstaller.org/" target=_blank>Windows</a>
 
 * Presionar CTRL + R y escribir cmd
 
-* En la terminal abierta escribiremos: ruby -v para verificar la instalacion de Ruby
+* En la terminal abierta escribiremos: ruby -v para verificar la instalación de Ruby
 
-* Para instalar rails en windows, usaremos: gem install rails
+* Para instalar rails en Windows, usaremos: gem install rails
 
 * Una vez terminado el proceso verificaremos con: rails -v en la misma terminal
 
-* Para descargar el repositorio, se podra usar tanto git como el mismo navegador para obtenerlo
+* Para descargar el repositorio, se podrá usar tanto git como el mismo navegador para obtenerlo
 
-* Para <a href="https://git-scm.com/downloads" target=_blank>git</a> tendras que utilizar el comando en terminal: git clone https://github.com/Alexrmsu/rails-pokemon.git
+* Para <a href="https://git-scm.com/downloads" target=_blank>git</a> tendrás que utilizar el comando en terminal: git clone https://github.com/Alexrmsu/rails-pokemon.git
 
-* Alternativamente puedes ir a la seccion del repositorio en "Code" y presionar la opcion "Download Zip"
+* Alternativamente puedes ir a la sección del repositorio en "Code" y presionar la opción "Download Zip"
 
 * Con el repositorio en el ordenador, iremos a la carpeta del mismo y abriremos una terminal en ella
 
-* Escribe en terminal el comando: bin/rails server  y el servidor local se abrira en tu navegador
+* Escribe en terminal el comando: bin/rails server y el servidor local se abrirá en tu navegador
 
-* En caso de que el servidor local no funcione, usar el comando: bundle install en caso de Gems faltantes
+* En caso de no funcionamiento del servidor local, usar el comando: bundle install en caso de Gems faltantes
 
-* En caso que este no se abra en el navegador, dirigite a http://localhost:3000/ en tu navegador
-
+* En caso que este no se abra en el navegador, dirígete a http://localhost:3000/ en tu navegador
