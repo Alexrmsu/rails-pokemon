@@ -1,12 +1,22 @@
 <div class="container">
-<%=@name%>
+  <!--<p>Nombre: <%=@name%> </p>
+  <p>ID: <%=@id%> </p>
+  <p>Abilidad primaria: <%=@skill%> </p> -->
+  <br><br>
+  <form>
+    <input class="random-pokemon" name="name" type="text" disabled value="ID:   <%=@id%>"><br><br>
+    <input class="random-pokemon" name="id" disabled type="text" value="Nombre:   <%=@name%>"><br><br>
+    <input class="random-pokemon" name="ability" disabled type="text" value="Habilidad Principal:  <%=@skill%>"><br><br>
+    <img src="<%= @url_image %>">
+    <br><br>
+    <BUTTON class="random-randomizer" onclick="randomNumber()">Aleatorio</BUTTON>
 
+  </form>
 
 </div>
 
 
 <div class="justify-content-center text-align-center align-items-center">
-  <button type="button" class="random-button">Buscar</button>
   <br>
   <a type="button" class="random-button" <%= link_to "Volver", main_path, class: "nav-link"  %></a>
 </div>

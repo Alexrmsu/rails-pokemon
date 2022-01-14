@@ -103,6 +103,30 @@ body{
     color: white;
 }
 
+.random-pokemon{
+    background-color: #E0C3FC;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    height: 70px;
+    width: 500px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Agency FB", serif;
+}
+
+.random-randomizer{
+    background-color: orangered;
+    border-radius: 10px;
+    border: black 3px solid;
+    height: 60px;
+    width: 200px;
+}
+
+.random-randomizer:hover{
+    background-color: coral;
+}
+
 .container{
     min-height: 600px;
     max-height: 600px;
