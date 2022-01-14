@@ -33,7 +33,7 @@ Información del proyecto:
 
 * usar el comando: "bundle install" en caso de Gems faltantes y asi poder usar el servidor local
 
-* Escribe en terminal el comando: bin/rails server y el servidor local se abrirá en tu navegador
+* Escribe en terminal el comando: bin/rails server y el servidor local se abrirá en tu navegador || tambien se puede usar: cd bin en consola y despues: "rails server"
 
 * En caso que este no se abra en el navegador, dirígete a http://localhost:3000/ en tu navegador
 
