@@ -14,13 +14,13 @@
  *= require_self
  */
 
-.welcome-text{
+.welcome-text {
     padding-top: 30px;
     font-family: "Times New Roman", serif;
 
 }
 
-.welcome-container{
+.welcome-container {
     max-width: 600px;
     max-height: 700px;
     height: 600px;
@@ -33,27 +33,28 @@
     box-shadow: black 1px 1px 12px 2px;
 }
 
-.welcome-paragraph{
-    font-family: "Times New Roman",serif;
+.welcome-paragraph {
+    font-family: "Times New Roman", serif;
     padding-left: 30px;
     padding-top: 10px;
     padding-right: 30px;
-    font-size:18px;
-    color:black;
+    font-size: 18px;
+    color: black;
 }
 
-.welcome-image{
+.welcome-image {
     max-width: 500px;
     padding-top: 20px;
     height: auto;
     margin: auto;
     display: block;
 }
-a{
-    color:black;
+
+a {
+    color: black;
 }
 
-.welcome-button{
+.welcome-button {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -66,22 +67,22 @@ a{
     border-radius: 8px;
     box-shadow: black 1px 1px 4px 1px;
     text-decoration: none;
-    color:black;
+    color: black;
     text-align: center;
 }
 
-.welcome-button:hover{
+.welcome-button:hover {
     background-color: darkorange;
     color: black;
 }
 
 
-body{
-    background-image: linear-gradient(62deg, #8EC5FC,#E0C3FC);
+body {
+    background-image: linear-gradient(62deg, #8EC5FC, #E0C3FC);
 }
 
 
-.random-button{
+.random-button {
     background-color: dodgerblue;
     color: white;
     margin-right: auto;
@@ -98,41 +99,47 @@ body{
     text-align: center;
 }
 
-.random-button:hover{
-    background-color:indianred;
+.random-button:hover {
+    background-color: indianred;
     color: white;
 }
 
-.random-pokemon{
+.random-pokemon {
     background-color: #E0C3FC;
     color: black;
     border: none;
     border-radius: 10px;
-    height: 70px;
+    height: 50px;
     width: 500px;
     text-align: center;
     font-size: 40px;
     font-family: "Agency FB", serif;
 }
 
-.random-randomizer{
+.random-randomizer {
     background-color: orangered;
     border-radius: 10px;
     border: black 3px solid;
     height: 60px;
     width: 200px;
+    color: white;
 }
 
-.random-randomizer:hover{
+.random-randomizer:hover {
     background-color: coral;
 }
 
-.random-image{
+.random-image {
     width: 150px;
     height: 150px;
 }
 
-.container{
+.random-small-paragraph {
+    font-size: 10px;
+    padding-left: 30px;
+}
+
+.container {
     min-height: 600px;
     max-height: 600px;
     width: auto;

@@ -11,5 +11,6 @@ class RandomController < ApplicationController
     result = JSON.parse response_skill.to_s
     @skill = result['abilities'][0]['ability']['name']
     @url_image = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/#{@id}.png"
+    @type = result['types'][0]['type']['name']
   end
 end

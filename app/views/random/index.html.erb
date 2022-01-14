@@ -4,8 +4,9 @@
     <input class="random-pokemon" name="name" type="text" disabled value="ID:   <%= @id %>"><br><br>
     <input class="random-pokemon" name="id" disabled type="text" value="Nombre:   <%= @name %>"><br><br>
     <input class="random-pokemon" name="ability" disabled type="text" value="Habilidad Principal:  <%= @skill %>"><br><br>
-    <img class="random-image" src="<%= @url_image %>">
-    <br><br>
+    <input class="random-pokemon" name="type" disabled type="text" value="Tipo:  <%= @type %>"> <br><br>
+    <img class="random-image" src="<%= @url_image %>"><br><br>
+
     <BUTTON class="random-randomizer" onclick="randomNumber()">Aleatorio</BUTTON>
   </form>
 </div>
@@ -13,3 +14,4 @@
   <br>
   <a type="button" class="random-button" <%= link_to "Volver", main_path, class: "nav-link" %></a>
 </div>
+<br> <p class="random-small-paragraph">App hecha por solicitud de la empresa EVoting </p>
